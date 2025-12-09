@@ -1,0 +1,35 @@
+This is GooCredit VTU Script 
+v6.8 updated successfully to v6.9
+---'
+Admin Login details 
+Username: GooCredit
+Password: 09110258589
+----
+PHP: 7.4
+----
+
+Payment Gateway Integrations and Others 
+GC VTU v6.9
+API PROVIDERS YOU NEED TO REGISTER WITH 
+
+API Provider for NIN, BVN
+https://aspget.com/
+
+API Provider - Virtual Account 
+https://billstack.co/
+
+API Provider - Virtual Account 
+https://merchant.aspfiy.com/
+
+Payvessel 
+https://app.payvessel.com/register
+
+Paystack 
+https://dashboard.paystack.com/#/signup
+
+Monnify 
+https://app.monnify.com/create-account
+----
+INSTALLATION GUIDE
+https://youtu.be/7Jp21P5j3aI?si=57PHGYaodrDPA88S
+NOTE: Admin Login: https://example.com/admingc

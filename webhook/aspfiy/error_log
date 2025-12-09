@@ -1,0 +1,40 @@
+[20-Sep-2024 02:10:21 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method ApiAccess::verifyAspfiyNotification() in /home/vtutele1/public_html/webhook/aspfiy/index.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/vtutele1/public_html/webhook/aspfiy/index.php on line 43
+[20-Sep-2024 02:23:39 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method ApiModel::verifyAspfiyNotification() in /home/vtutele1/public_html/core/Controllers/ApiAccess.php:495
+Stack trace:
+#0 /home/vtutele1/public_html/webhook/aspfiy/index.php(43): ApiAccess->verifyAspfiyNotification('13cb2c0c6a34f73...', 'vtutelecom.ng@g...')
+#1 {main}
+  thrown in /home/vtutele1/public_html/core/Controllers/ApiAccess.php on line 495
+[20-Sep-2024 02:31:40 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method ApiAccess::recordAspfiyTransaction() in /home/vtutele1/public_html/webhook/aspfiy/index.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/vtutele1/public_html/webhook/aspfiy/index.php on line 67
+[02-Oct-2025 16:41:56 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[03-Oct-2025 13:14:35 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[04-Oct-2025 17:01:30 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[15-Oct-2025 14:46:46 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[15-Oct-2025 14:46:48 Africa/Lagos] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/ajddata1/public_html/core/Models/ApiModel.php:1184) in /home/ajddata1/public_html/webhook/aspfiy/index.php on line 76
+[15-Oct-2025 16:36:35 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[15-Oct-2025 16:36:37 Africa/Lagos] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/ajddata1/public_html/core/Models/ApiModel.php:1184) in /home/ajddata1/public_html/webhook/aspfiy/index.php on line 76
+[16-Oct-2025 15:35:33 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[16-Oct-2025 15:35:35 Africa/Lagos] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/ajddata1/public_html/core/Models/ApiModel.php:1184) in /home/ajddata1/public_html/webhook/aspfiy/index.php on line 76
+[17-Oct-2025 06:20:33 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[17-Oct-2025 06:20:35 Africa/Lagos] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/ajddata1/public_html/core/Models/ApiModel.php:1184) in /home/ajddata1/public_html/webhook/aspfiy/index.php on line 76
+[21-Oct-2025 21:04:29 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[21-Oct-2025 21:04:31 Africa/Lagos] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/ajddata1/public_html/core/Models/ApiModel.php:1184) in /home/ajddata1/public_html/webhook/aspfiy/index.php on line 76
+[23-Oct-2025 05:58:38 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[23-Oct-2025 05:58:40 Africa/Lagos] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/ajddata1/public_html/core/Models/ApiModel.php:1184) in /home/ajddata1/public_html/webhook/aspfiy/index.php on line 76
+[25-Oct-2025 20:29:04 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[25-Oct-2025 20:29:06 Africa/Lagos] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/ajddata1/public_html/core/Models/ApiModel.php:1184) in /home/ajddata1/public_html/webhook/aspfiy/index.php on line 76
+[02-Nov-2025 23:27:30 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[02-Nov-2025 23:27:32 Africa/Lagos] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/ajddata1/public_html/core/Models/ApiModel.php:1184) in /home/ajddata1/public_html/webhook/aspfiy/index.php on line 76
+[09-Nov-2025 08:19:14 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[09-Nov-2025 08:19:16 Africa/Lagos] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/ajddata1/public_html/core/Models/ApiModel.php:1184) in /home/ajddata1/public_html/webhook/aspfiy/index.php on line 76
+[10-Nov-2025 12:19:02 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[10-Nov-2025 12:19:04 Africa/Lagos] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/ajddata1/public_html/core/Models/ApiModel.php:1184) in /home/ajddata1/public_html/webhook/aspfiy/index.php on line 76
+[11-Nov-2025 17:30:26 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[11-Nov-2025 17:30:28 Africa/Lagos] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/ajddata1/public_html/core/Models/ApiModel.php:1184) in /home/ajddata1/public_html/webhook/aspfiy/index.php on line 76
+[16-Nov-2025 13:20:48 Africa/Lagos] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/ajddata1/public_html/core/helpers/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1244
+[16-Nov-2025 13:20:50 Africa/Lagos] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/ajddata1/public_html/core/Models/ApiModel.php:1184) in /home/ajddata1/public_html/webhook/aspfiy/index.php on line 76
