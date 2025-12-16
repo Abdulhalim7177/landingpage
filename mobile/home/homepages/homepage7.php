@@ -28,8 +28,13 @@
                 </a>
             </div>
             <div class="card-bottom ps-3 pb-2 bt-3">
-                <h5 class="font-15"><a href="fund-wallet" style="text-shadow: 2px 2px 2px #000000;"><b class="text-white">Opay Payment Service Bank</b></a></h5>
-                <p class="mb-2 text-white font-600 font-16" onclick="copyToClipboard('<?php echo $data3->accountname; ?>')"> <b>Acc No: </b><?php echo $data3->accountno; ?>&nbsp;<img src="/assets/copy.png" alt="copy" width="23" height="23" /></p>
+                <?php if (!empty($data->sAsfiyBank)): ?>
+                    <h5 class="font-15"><a href="fund-wallet" style="text-shadow: 2px 2px 2px #000000;"><b class="text-white">Paga Microfinance Bank</b></a></h5>
+                    <p class="mb-2 text-white font-600 font-16" onclick="copyToClipboard('<?php echo $data->sAsfiyBank; ?>')"> <b>Acc No: </b><?php echo $data->sAsfiyBank; ?>&nbsp;<img src="/assets/copy.png" alt="copy" width="23" height="23" /></p>
+                <?php else: ?>
+                    <h5 class="font-15"><a href="fund-wallet" style="text-shadow: 2px 2px 2px #000000;"><b class="text-white">No Aspify Account Yet</b></a></h5>
+                    <p class="mb-2 text-white font-600 font-16"><a href="fund-wallet" class="text-white"><i class="fa fa-arrow-right"></i> Generate Account</a></p>
+                <?php endif; ?>
                 <!--<p class="mb-2 text-white font-600 font-16" onclick="copyToClipboard('<?php echo $data->sRolexBank; ?>')"> <b>Acc No: </b><?php echo $data->sPayvesselBank; ?>&nbsp;<img src="/assets/copy.png" alt="copy"</p>-->
             </div>
             
